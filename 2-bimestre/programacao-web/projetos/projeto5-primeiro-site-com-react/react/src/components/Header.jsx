@@ -1,13 +1,10 @@
-export default function Header() {
+export default function Header(){
     return(
-       <div>
-        <h1>Meu Primeiro Site</h1>
-
-    <nav>
-        <button>Home</button>
-        <button>Sobre</button>
-        <button>Contato</button>
-      </nav>
-       </div>
+        <div>
+            <h1>Meu Primeiro Site</h1>
+            <a href="home">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
     )
 }
