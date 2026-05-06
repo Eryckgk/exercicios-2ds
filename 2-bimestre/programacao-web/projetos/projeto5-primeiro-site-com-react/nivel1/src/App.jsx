@@ -5,6 +5,9 @@ export default function App() {
   return (
     <div>
       {/* Adicione seus componentes abaixo dessa linha */}
+
+      <Header />
+      <Footer />
     </div>
   )
 }
