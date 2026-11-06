@@ -1,0 +1,23 @@
+meta {
+  name: Criar tarefa
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/tarefas
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "titulo": "Nova tarefa",
+    "feita": false
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,23 @@
+meta {
+  name: Criar pedido
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/pedidos
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "cliente": "Carla",
+    "valor": 300
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
