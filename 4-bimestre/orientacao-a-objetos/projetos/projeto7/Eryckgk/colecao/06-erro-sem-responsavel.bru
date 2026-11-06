@@ -1,0 +1,23 @@
+meta {
+  name: Erro sem responsavel
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:3000/reservas
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "horario": "18h",
+    "valor": 80
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

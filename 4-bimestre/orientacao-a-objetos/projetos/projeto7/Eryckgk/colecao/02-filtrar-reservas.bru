@@ -1,0 +1,16 @@
+meta {
+  name: Filtrar reservas por situacao e valor minimo
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:3000/reservas?situacao=confirmada&valorMin=90
+  body: none
+  auth: none
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

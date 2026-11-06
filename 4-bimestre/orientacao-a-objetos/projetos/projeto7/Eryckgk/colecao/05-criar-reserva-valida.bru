@@ -1,0 +1,24 @@
+meta {
+  name: Criar reserva valida
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:3000/reservas
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "responsavel": "Diego",
+    "horario": "18h",
+    "valor": 80
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

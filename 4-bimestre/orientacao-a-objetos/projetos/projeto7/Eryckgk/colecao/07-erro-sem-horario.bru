@@ -1,0 +1,23 @@
+meta {
+  name: Erro sem horario
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:3000/reservas
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "responsavel": "Diego",
+    "valor": 80
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
