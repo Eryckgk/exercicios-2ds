@@ -1,0 +1,16 @@
+{
+  "name": "teamsync",
+  "version": "1.0.0",
+  "description": "Sistema de organização de equipes utilizando POO",
+  "main": "src/servidor.js",
+  "scripts": {
+    "start": "node src/servidor.js",
+    "dev": "node --watch src/servidor.js",
+    "cli": "node cli/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "license": "ISC"
+}

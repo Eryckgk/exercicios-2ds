@@ -1,0 +1,4 @@
+node_modules/
+teamsync.sqlite
+*.sqlite-shm
+*.sqlite-wal
